@@ -1,0 +1,8 @@
+CREATE TABLE INTERVENANT (
+    id UUID DEFAULT random_uuid() PRIMARY KEY,
+    nom VARCHAR(255) NOT NULL,
+    prenom VARCHAR(255) NOT NULL,
+    commune VARCHAR(255) NOT NULL,
+    codepostal VARCHAR(255) NOT NULL
+);
+
